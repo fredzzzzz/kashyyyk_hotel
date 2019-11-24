@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3
+# Install script for directory: C:/Users/freds/zzz/Git Local/kashyyyk_hotel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

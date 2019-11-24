@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kashyyyk_hotel_2">
-				<Option output="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/kashyyyk_hotel_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug"/>
+				<Option output="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/kashyyyk_hotel_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -29,15 +29,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 kashyyyk_hotel_2"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 kashyyyk_hotel_2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="kashyyyk_hotel_2/fast">
-				<Option output="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/kashyyyk_hotel_2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug"/>
+				<Option output="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/kashyyyk_hotel_2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -47,55 +47,55 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 kashyyyk_hotel_2/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 kashyyyk_hotel_2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug"/>
+				<Option working_dir="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/freds/zzz/Git Local/kashyyyk_hotel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/book_table.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/book_table.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/checkin.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/checkin.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/checkout.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/checkout.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/get_room_index.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/get_room_index.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/header.h">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/main.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/main.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/remove_whitespace.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/remove_whitespace.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/CMakeLists.txt">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

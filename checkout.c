@@ -16,14 +16,13 @@ int checkout(int booking_info[4][6], int *rooms, char *customers[4][3][128], cha
     int children = booking_info[room][2];
     int adults = booking_info[room][1];
     int x = 0;
+
     /* endpoint is throwaway */
     char *endpoint;
     int mainage = strtol((char *) customers[room][2], &endpoint, 10);
-    printf("made it boys");
 
     int duration = booking_info[room][4];
     int boardtype = booking_info[room][3];
-
 
     /* altered values slightly to change for the room index */
     for (x = 0; x < 4; x++)                //This simple for loop identifies the room cost
@@ -33,16 +32,14 @@ int checkout(int booking_info[4][6], int *rooms, char *customers[4][3][128], cha
         }
     }
 
-
     /* altered to use int values as given in the checkin */
-    switch (boardtype) {   //unknown glo var    finds out boardcost form boardtype
+    switch (boardtype) {
         case 1:
             boardcost = 20.0;
             break;
         case 2:
             boardcost = 15.0;
             break;
-
         case 3:
             boardcost = 5.0;
             break;
@@ -53,7 +50,6 @@ int checkout(int booking_info[4][6], int *rooms, char *customers[4][3][128], cha
 
 
     mealscost =(boardcost * adults * duration) + ((boardcost * children * duration) / 2);    //This equation calculates
-
     roomcost =roomcost * duration;                                                 // the mealscost for the wholeparty
 
     if (mainage > 65) {
@@ -74,7 +70,13 @@ int checkout(int booking_info[4][6], int *rooms, char *customers[4][3][128], cha
     {
         printf("Newspaper cost:  \x9C%1.2f", 5.50);
     }
-    printf("\n\n");
+    printf("\n");
+
+    /* will have to add the removing of elements, will do tmrw ? could always make a function for it. */
+    printf("The checkout was successful, press any key to return to the main menu. :");
+
+    char throwaway;
+    scanf("%c", &throwaway);
 
     return 0;
 }
