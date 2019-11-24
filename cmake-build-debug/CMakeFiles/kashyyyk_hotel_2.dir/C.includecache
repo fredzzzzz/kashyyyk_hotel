@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/checkout.c
+header.h
+C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/header.h
+
+C:/Users/freds/zzz/Git Local/CLIion Projects/kashyyyk_hotel_3/header.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+time.h
+-
+
