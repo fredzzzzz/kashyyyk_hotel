@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 int checkout(int booking_info[4][6], int *rooms, char *customers[4][3][128], char *r1_id, char *r2_id, char *r3_id, char *r4_id) {
     /* use the external function to get the room index, rest of program is all yours. */

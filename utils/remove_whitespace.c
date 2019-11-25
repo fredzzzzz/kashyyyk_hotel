@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 /* used in the checkin subroutine */
 void remove_whitespace(char *str, int size)

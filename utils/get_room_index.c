@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 /* take a booking id and return the associated room_index (if one), otherwise return 0. */
 int get_room_index(char *r1_id, char *r2_id, char *r3_id, char *r4_id)

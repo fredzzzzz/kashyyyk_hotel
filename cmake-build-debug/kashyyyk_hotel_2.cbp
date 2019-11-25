@@ -74,25 +74,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/book_table.c">
-			<Option target="kashyyyk_hotel_2"/>
-		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/checkin.c">
-			<Option target="kashyyyk_hotel_2"/>
-		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/checkout.c">
-			<Option target="kashyyyk_hotel_2"/>
-		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/get_room_index.c">
-			<Option target="kashyyyk_hotel_2"/>
-		</Unit>
 		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
 		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/main.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
-		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/remove_whitespace.c">
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/subroutines/book_table.c">
+			<Option target="kashyyyk_hotel_2"/>
+		</Unit>
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/subroutines/checkin.c">
+			<Option target="kashyyyk_hotel_2"/>
+		</Unit>
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/subroutines/checkout.c">
+			<Option target="kashyyyk_hotel_2"/>
+		</Unit>
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/utils/get_room_index.c">
+			<Option target="kashyyyk_hotel_2"/>
+		</Unit>
+		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/utils/remove_whitespace.c">
 			<Option target="kashyyyk_hotel_2"/>
 		</Unit>
 		<Unit filename="C:/Users/freds/zzz/Git Local/kashyyyk_hotel/CMakeLists.txt">

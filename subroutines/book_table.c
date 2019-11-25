@@ -1,4 +1,4 @@
-#include "header.h"
+#include "../header.h"
 
 /* book table - jackson */
 int book_table(int booking_info[4][6], char *table7[3][2], char *table9[3][2], char *freeTables7, char *freeTables9, char *r1_id, char *r2_id, char *r3_id, char *r4_id)

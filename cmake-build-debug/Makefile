@@ -122,114 +122,6 @@ kashyyyk_hotel_2/fast:
 	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/build
 .PHONY : kashyyyk_hotel_2/fast
 
-book_table.obj: book_table.c.obj
-
-.PHONY : book_table.obj
-
-# target to build an object file
-book_table.c.obj:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj
-.PHONY : book_table.c.obj
-
-book_table.i: book_table.c.i
-
-.PHONY : book_table.i
-
-# target to preprocess a source file
-book_table.c.i:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.i
-.PHONY : book_table.c.i
-
-book_table.s: book_table.c.s
-
-.PHONY : book_table.s
-
-# target to generate assembly for a file
-book_table.c.s:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.s
-.PHONY : book_table.c.s
-
-checkin.obj: checkin.c.obj
-
-.PHONY : checkin.obj
-
-# target to build an object file
-checkin.c.obj:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj
-.PHONY : checkin.c.obj
-
-checkin.i: checkin.c.i
-
-.PHONY : checkin.i
-
-# target to preprocess a source file
-checkin.c.i:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.i
-.PHONY : checkin.c.i
-
-checkin.s: checkin.c.s
-
-.PHONY : checkin.s
-
-# target to generate assembly for a file
-checkin.c.s:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.s
-.PHONY : checkin.c.s
-
-checkout.obj: checkout.c.obj
-
-.PHONY : checkout.obj
-
-# target to build an object file
-checkout.c.obj:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj
-.PHONY : checkout.c.obj
-
-checkout.i: checkout.c.i
-
-.PHONY : checkout.i
-
-# target to preprocess a source file
-checkout.c.i:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.i
-.PHONY : checkout.c.i
-
-checkout.s: checkout.c.s
-
-.PHONY : checkout.s
-
-# target to generate assembly for a file
-checkout.c.s:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.s
-.PHONY : checkout.c.s
-
-get_room_index.obj: get_room_index.c.obj
-
-.PHONY : get_room_index.obj
-
-# target to build an object file
-get_room_index.c.obj:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj
-.PHONY : get_room_index.c.obj
-
-get_room_index.i: get_room_index.c.i
-
-.PHONY : get_room_index.i
-
-# target to preprocess a source file
-get_room_index.c.i:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.i
-.PHONY : get_room_index.c.i
-
-get_room_index.s: get_room_index.c.s
-
-.PHONY : get_room_index.s
-
-# target to generate assembly for a file
-get_room_index.c.s:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.s
-.PHONY : get_room_index.c.s
-
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -257,32 +149,140 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/main.c.s
 .PHONY : main.c.s
 
-remove_whitespace.obj: remove_whitespace.c.obj
+subroutines/book_table.obj: subroutines/book_table.c.obj
 
-.PHONY : remove_whitespace.obj
+.PHONY : subroutines/book_table.obj
 
 # target to build an object file
-remove_whitespace.c.obj:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj
-.PHONY : remove_whitespace.c.obj
+subroutines/book_table.c.obj:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.obj
+.PHONY : subroutines/book_table.c.obj
 
-remove_whitespace.i: remove_whitespace.c.i
+subroutines/book_table.i: subroutines/book_table.c.i
 
-.PHONY : remove_whitespace.i
+.PHONY : subroutines/book_table.i
 
 # target to preprocess a source file
-remove_whitespace.c.i:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.i
-.PHONY : remove_whitespace.c.i
+subroutines/book_table.c.i:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.i
+.PHONY : subroutines/book_table.c.i
 
-remove_whitespace.s: remove_whitespace.c.s
+subroutines/book_table.s: subroutines/book_table.c.s
 
-.PHONY : remove_whitespace.s
+.PHONY : subroutines/book_table.s
 
 # target to generate assembly for a file
-remove_whitespace.c.s:
-	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.s
-.PHONY : remove_whitespace.c.s
+subroutines/book_table.c.s:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.s
+.PHONY : subroutines/book_table.c.s
+
+subroutines/checkin.obj: subroutines/checkin.c.obj
+
+.PHONY : subroutines/checkin.obj
+
+# target to build an object file
+subroutines/checkin.c.obj:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.obj
+.PHONY : subroutines/checkin.c.obj
+
+subroutines/checkin.i: subroutines/checkin.c.i
+
+.PHONY : subroutines/checkin.i
+
+# target to preprocess a source file
+subroutines/checkin.c.i:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.i
+.PHONY : subroutines/checkin.c.i
+
+subroutines/checkin.s: subroutines/checkin.c.s
+
+.PHONY : subroutines/checkin.s
+
+# target to generate assembly for a file
+subroutines/checkin.c.s:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.s
+.PHONY : subroutines/checkin.c.s
+
+subroutines/checkout.obj: subroutines/checkout.c.obj
+
+.PHONY : subroutines/checkout.obj
+
+# target to build an object file
+subroutines/checkout.c.obj:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.obj
+.PHONY : subroutines/checkout.c.obj
+
+subroutines/checkout.i: subroutines/checkout.c.i
+
+.PHONY : subroutines/checkout.i
+
+# target to preprocess a source file
+subroutines/checkout.c.i:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.i
+.PHONY : subroutines/checkout.c.i
+
+subroutines/checkout.s: subroutines/checkout.c.s
+
+.PHONY : subroutines/checkout.s
+
+# target to generate assembly for a file
+subroutines/checkout.c.s:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.s
+.PHONY : subroutines/checkout.c.s
+
+utils/get_room_index.obj: utils/get_room_index.c.obj
+
+.PHONY : utils/get_room_index.obj
+
+# target to build an object file
+utils/get_room_index.c.obj:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.obj
+.PHONY : utils/get_room_index.c.obj
+
+utils/get_room_index.i: utils/get_room_index.c.i
+
+.PHONY : utils/get_room_index.i
+
+# target to preprocess a source file
+utils/get_room_index.c.i:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.i
+.PHONY : utils/get_room_index.c.i
+
+utils/get_room_index.s: utils/get_room_index.c.s
+
+.PHONY : utils/get_room_index.s
+
+# target to generate assembly for a file
+utils/get_room_index.c.s:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.s
+.PHONY : utils/get_room_index.c.s
+
+utils/remove_whitespace.obj: utils/remove_whitespace.c.obj
+
+.PHONY : utils/remove_whitespace.obj
+
+# target to build an object file
+utils/remove_whitespace.c.obj:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.obj
+.PHONY : utils/remove_whitespace.c.obj
+
+utils/remove_whitespace.i: utils/remove_whitespace.c.i
+
+.PHONY : utils/remove_whitespace.i
+
+# target to preprocess a source file
+utils/remove_whitespace.c.i:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.i
+.PHONY : utils/remove_whitespace.c.i
+
+utils/remove_whitespace.s: utils/remove_whitespace.c.s
+
+.PHONY : utils/remove_whitespace.s
+
+# target to generate assembly for a file
+utils/remove_whitespace.c.s:
+	$(MAKE) -f CMakeFiles\kashyyyk_hotel_2.dir\build.make CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.s
+.PHONY : utils/remove_whitespace.c.s
 
 # Help Target
 help:
@@ -293,24 +293,24 @@ help:
 	@echo ... kashyyyk_hotel_2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... book_table.obj
-	@echo ... book_table.i
-	@echo ... book_table.s
-	@echo ... checkin.obj
-	@echo ... checkin.i
-	@echo ... checkin.s
-	@echo ... checkout.obj
-	@echo ... checkout.i
-	@echo ... checkout.s
-	@echo ... get_room_index.obj
-	@echo ... get_room_index.i
-	@echo ... get_room_index.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... remove_whitespace.obj
-	@echo ... remove_whitespace.i
-	@echo ... remove_whitespace.s
+	@echo ... subroutines/book_table.obj
+	@echo ... subroutines/book_table.i
+	@echo ... subroutines/book_table.s
+	@echo ... subroutines/checkin.obj
+	@echo ... subroutines/checkin.i
+	@echo ... subroutines/checkin.s
+	@echo ... subroutines/checkout.obj
+	@echo ... subroutines/checkout.i
+	@echo ... subroutines/checkout.s
+	@echo ... utils/get_room_index.obj
+	@echo ... utils/get_room_index.i
+	@echo ... utils/get_room_index.s
+	@echo ... utils/remove_whitespace.obj
+	@echo ... utils/remove_whitespace.i
+	@echo ... utils/remove_whitespace.s
 .PHONY : help
 
 

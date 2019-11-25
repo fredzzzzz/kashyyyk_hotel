@@ -69,89 +69,89 @@ CMakeFiles/kashyyyk_hotel_2.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/main.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\main.c" -o CMakeFiles\kashyyyk_hotel_2.dir\main.c.s
 
-CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
-CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj: ../remove_whitespace.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\remove_whitespace.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\remove_whitespace.c"
+CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
+CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.obj: ../utils/remove_whitespace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\utils\remove_whitespace.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\utils\remove_whitespace.c"
 
-CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\remove_whitespace.c" > CMakeFiles\kashyyyk_hotel_2.dir\remove_whitespace.c.i
+CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\utils\remove_whitespace.c" > CMakeFiles\kashyyyk_hotel_2.dir\utils\remove_whitespace.c.i
 
-CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\remove_whitespace.c" -o CMakeFiles\kashyyyk_hotel_2.dir\remove_whitespace.c.s
+CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\utils\remove_whitespace.c" -o CMakeFiles\kashyyyk_hotel_2.dir\utils\remove_whitespace.c.s
 
-CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
-CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj: ../get_room_index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\get_room_index.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\get_room_index.c"
+CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
+CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.obj: ../utils/get_room_index.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\utils\get_room_index.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\utils\get_room_index.c"
 
-CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\get_room_index.c" > CMakeFiles\kashyyyk_hotel_2.dir\get_room_index.c.i
+CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\utils\get_room_index.c" > CMakeFiles\kashyyyk_hotel_2.dir\utils\get_room_index.c.i
 
-CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\get_room_index.c" -o CMakeFiles\kashyyyk_hotel_2.dir\get_room_index.c.s
+CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\utils\get_room_index.c" -o CMakeFiles\kashyyyk_hotel_2.dir\utils\get_room_index.c.s
 
-CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
-CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj: ../book_table.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\book_table.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\book_table.c"
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.obj: ../subroutines/book_table.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\subroutines\book_table.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\book_table.c"
 
-CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\book_table.c" > CMakeFiles\kashyyyk_hotel_2.dir\book_table.c.i
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\book_table.c" > CMakeFiles\kashyyyk_hotel_2.dir\subroutines\book_table.c.i
 
-CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\book_table.c" -o CMakeFiles\kashyyyk_hotel_2.dir\book_table.c.s
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\book_table.c" -o CMakeFiles\kashyyyk_hotel_2.dir\subroutines\book_table.c.s
 
-CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
-CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj: ../checkin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\checkin.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\checkin.c"
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.obj: ../subroutines/checkin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\subroutines\checkin.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\checkin.c"
 
-CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\checkin.c" > CMakeFiles\kashyyyk_hotel_2.dir\checkin.c.i
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\checkin.c" > CMakeFiles\kashyyyk_hotel_2.dir\subroutines\checkin.c.i
 
-CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\checkin.c" -o CMakeFiles\kashyyyk_hotel_2.dir\checkin.c.s
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\checkin.c" -o CMakeFiles\kashyyyk_hotel_2.dir\subroutines\checkin.c.s
 
-CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
-CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj: ../checkout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\checkout.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\checkout.c"
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.obj: CMakeFiles/kashyyyk_hotel_2.dir/flags.make
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.obj: ../subroutines/checkout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\freds\zzz\Git Local\kashyyyk_hotel\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\kashyyyk_hotel_2.dir\subroutines\checkout.c.obj   -c "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\checkout.c"
 
-CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\checkout.c" > CMakeFiles\kashyyyk_hotel_2.dir\checkout.c.i
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\checkout.c" > CMakeFiles\kashyyyk_hotel_2.dir\subroutines\checkout.c.i
 
-CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\checkout.c" -o CMakeFiles\kashyyyk_hotel_2.dir\checkout.c.s
+CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\freds\zzz\Git Local\kashyyyk_hotel\subroutines\checkout.c" -o CMakeFiles\kashyyyk_hotel_2.dir\subroutines\checkout.c.s
 
 # Object files for target kashyyyk_hotel_2
 kashyyyk_hotel_2_OBJECTS = \
 "CMakeFiles/kashyyyk_hotel_2.dir/main.c.obj" \
-"CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj" \
-"CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj" \
-"CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj" \
-"CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj" \
-"CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj"
+"CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.obj" \
+"CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.obj" \
+"CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.obj" \
+"CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.obj" \
+"CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.obj"
 
 # External object files for target kashyyyk_hotel_2
 kashyyyk_hotel_2_EXTERNAL_OBJECTS =
 
 kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/main.c.obj
-kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj
-kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj
-kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj
-kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj
-kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj
+kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/utils/remove_whitespace.c.obj
+kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/utils/get_room_index.c.obj
+kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/subroutines/book_table.c.obj
+kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkin.c.obj
+kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/subroutines/checkout.c.obj
 kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/build.make
 kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/linklibs.rsp
 kashyyyk_hotel_2.exe: CMakeFiles/kashyyyk_hotel_2.dir/objects1.rsp
