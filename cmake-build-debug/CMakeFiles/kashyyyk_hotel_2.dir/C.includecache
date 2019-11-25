@@ -6,19 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/book_table.c
-header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
-
 C:/Users/freds/zzz/Git Local/kashyyyk_hotel/checkin.c
-header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
-
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/checkout.c
-header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
-
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/get_room_index.c
 header.h
 C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
 
@@ -33,12 +21,4 @@ stdbool.h
 -
 time.h
 -
-
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/main.c
-header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
-
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/remove_whitespace.c
-header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
 

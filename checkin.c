@@ -137,15 +137,17 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
             strcat(booking_id, last_name);
             strcat(booking_id, random_number);
 
-            /* check every single booking id to see if it's unique */
-            bool r1unique = strcmp(r1_id, booking_id);
-            bool r2unique = strcmp(r2_id, booking_id);
-            bool r3unique = strcmp(r3_id, booking_id);
-            bool r4unique = strcmp(r4_id, booking_id);
+            /* check every single booking id to see if it's unique
+                    strcmp returns 0 if true */
+            int r1unique = strcmp(r1_id, booking_id);
+            int r2unique = strcmp(r2_id, booking_id);
+            int r3unique = strcmp(r3_id, booking_id);
+            int r4unique = strcmp(r4_id, booking_id);
 
-            if (r1unique || r2unique || r3unique || r4unique)
+            if (r1unique == 0 || r2unique == 0 || r3unique == 0|| r4unique == 0)
             {
                 // not unique booking id, try it again.
+                printf("\nID was not unique on first attempt, trying again.");
                 continue;
             }
 

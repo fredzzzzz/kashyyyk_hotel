@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c4a6e98-844a-41f2-93e1-b9a87a745cf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_table.c" beforeDir="false" afterPath="$PROJECT_DIR$/book_table.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkin.c" beforeDir="false" afterPath="$PROJECT_DIR$/checkin.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/kashyyyk_hotel_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kashyyyk_hotel_2.exe" afterDir="false" />
     </list>
@@ -74,7 +73,7 @@
       <workItem from="1574535508802" duration="249000" />
       <workItem from="1574613878241" duration="4469000" />
       <workItem from="1574623120053" duration="305000" />
-      <workItem from="1574701575684" duration="1148000" />
+      <workItem from="1574701575684" duration="1925000" />
     </task>
     <servers />
   </component>
