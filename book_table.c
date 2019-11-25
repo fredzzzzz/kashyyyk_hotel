@@ -14,7 +14,7 @@ int book_table(int booking_info[4][6], char *table7[3][2], char *table9[3][2], c
 
     if (guestCheck == 1) {//only happens if guest is staying at hotel
         if (booking_info[room][3] == 3) { //checks to see board type
-            printf("Cannot book you a table if you are not staying full/half board.");
+            printf("Cannot book you a table if you are not staying full/half board.\n");
         } else {
             for (x = 0; x < 3; x++) { //loops around the whole table list to check free tables
                 if ((strcmp(table7[x][1], "F")) == 0) {

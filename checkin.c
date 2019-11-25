@@ -138,10 +138,10 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
             strcat(booking_id, random_number);
 
             /* check every single booking id to see if it's unique */
-            bool r1unique = r1_id == booking_id;
-            bool r2unique = r2_id == booking_id;
-            bool r3unique = r3_id == booking_id;
-            bool r4unique = r4_id == booking_id;
+            bool r1unique = strcmp(r1_id, booking_id);
+            bool r2unique = strcmp(r2_id, booking_id);
+            bool r3unique = strcmp(r3_id, booking_id);
+            bool r4unique = strcmp(r4_id, booking_id);
 
             if (r1unique || r2unique || r3unique || r4unique)
             {
