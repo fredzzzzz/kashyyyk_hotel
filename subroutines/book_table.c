@@ -9,8 +9,8 @@ int book_table(int booking_info[4][6], char *table7[3][2], char *table9[3][2], c
     printf(".. help serve tonight, we'll start by asking for booking_id.");
 
     /* use the external function to get the room index, booking id input is included in that. */
-     room = get_room_index(r1_id, r2_id, r3_id, r4_id);
-     guestCheck = (room == -1 ? 0 : 1);
+    room = get_room_index(r1_id, r2_id, r3_id, r4_id);
+    guestCheck = (room == -1 ? 0 : 1);
 
     if (guestCheck == 1) {//only happens if guest is staying at hotel
         if (booking_info[room][3] == 3) { //checks to see board type

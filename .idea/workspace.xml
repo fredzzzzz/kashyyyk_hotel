@@ -13,29 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c4a6e98-844a-41f2-93e1-b9a87a745cf1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_table.c" beforeDir="false" afterPath="$PROJECT_DIR$/subroutines/book_table.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkin.c" beforeDir="false" afterPath="$PROJECT_DIR$/subroutines/checkin.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.c" beforeDir="false" afterPath="$PROJECT_DIR$/subroutines/checkout.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/book_table.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/checkin.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/checkout.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/get_room_index.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/kashyyyk_hotel_2.dir/remove_whitespace.c.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kashyyyk_hotel_2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kashyyyk_hotel_2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/kashyyyk_hotel_2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/kashyyyk_hotel_2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_room_index.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils/get_room_index.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remove_whitespace.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils/remove_whitespace.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subroutines/book_table.c" beforeDir="false" afterPath="$PROJECT_DIR$/subroutines/book_table.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +78,7 @@
       <workItem from="1574535508802" duration="249000" />
       <workItem from="1574613878241" duration="4469000" />
       <workItem from="1574623120053" duration="305000" />
-      <workItem from="1574701575684" duration="2467000" />
+      <workItem from="1574701575684" duration="5761000" />
     </task>
     <servers />
   </component>
