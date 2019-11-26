@@ -72,9 +72,44 @@ int checkout(int booking_info[4][6], int *rooms, char *customers[4][3][128], cha
     }
     printf("\n");
 
-    /* will have to add the removing of elements, will do tmrw ? could always make a function for it. */
-    printf("The checkout was successful, press any key to return to the main menu. :");
+    /* checkout finished, nullify all the values */
+    booking_info[room][0] = 0;    //Honestly have no idea what this is.
+    booking_info[room][1] = 0;   //Adults
+    booking_info[room][2] = 0;   //Children
+    booking_info[room][3] = 0;   //Board type
+    booking_info[room][4] = 0;   //Duration
+    booking_info[room][5] = 0;   // Newspaper
+    rooms[room] = 0;
 
+    strcpy((char *) customers[room][0], "\0"); // Booking ID
+    strcpy((char *) customers[room][1], "\0"); // Name
+    strcpy((char *) customers[room][2], "\0"); // Age
+
+    switch(room)
+    {
+        case 0:
+            strcpy(r1_id, "\0");
+            break;
+
+        case 1:
+            strcpy(r2_id, "\0");
+            break;
+
+        case 2:
+            strcpy(r3_id, "\0");
+            break;
+
+        case 3:
+            strcpy(r4_id, "\0");
+            break;
+
+        default:
+            printf("Found wrong room index when checking out?");
+    }
+
+    /* end of nullifying */
+
+    printf("The checkout was successful, press any key to return to the main menu. :");
     char throwaway;
     scanf("%c", &throwaway);
 

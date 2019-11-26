@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
+C:/Users/201900918/OneDrive - BHASVIC/kashyyyk_hotel/header.h
 stdio.h
 -
 stdlib.h
@@ -18,11 +18,7 @@ stdbool.h
 time.h
 -
 
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/utils/get_room_index.c
+C:/Users/201900918/OneDrive - BHASVIC/kashyyyk_hotel/subroutines/checkin.c
 ../header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
-
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/utils/remove_whitespace.c
-../header.h
-C:/Users/freds/zzz/Git Local/kashyyyk_hotel/header.h
+C:/Users/201900918/OneDrive - BHASVIC/kashyyyk_hotel/header.h
 

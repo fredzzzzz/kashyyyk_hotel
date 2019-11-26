@@ -86,6 +86,8 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
 
     while (!valid_name)
     {
+        fflush(stdin);
+
         printf("First Name :");
         fgets(first_name, 50, stdin);
 
@@ -199,7 +201,7 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
     while (!valid_dob)
     {
         // \t indicates a horizontal space (tab)
-        printf("Your DOB (DD MM YYYY) \n\t*note - separate with whitespace e.g 18 06 2003 :");
+        printf("Your DOB (DD MM YYYY) \n\t*note - separate with whitespace e.g 18 06 2003 & the main user must be at least 16y :");
         fgets(dob_input, sizeof(dob_input), stdin);
         char *endpoint = "";
 
@@ -211,7 +213,7 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
         // Now range check for each int value, these variables will be true if invalid.
         bool day_check = dob_day < 1 || dob_day > 31;
         bool month_check = dob_month < 1 || dob_month > 12;
-        bool year_check = dob_year < 1900 || dob_year > 2019;
+        bool year_check = dob_year < 1900 || dob_year > 2003;
 
         if (day_check || month_check || year_check)
         {
@@ -243,7 +245,7 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
         fgets(adults_input, 5, stdin);
 
         char children_input[5] = "";
-        printf("How many children are staying? :");
+        printf("How many children are staying? [16 or below] :");
         fgets(children_input, 5, stdin);
 
         // break down the input using strtol, as with dob, in this case endpoint is never used - throwaway value
@@ -253,12 +255,12 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
         total_people = adults + children;
 
         bool invalid_adults = adults < 1 || adults > 4;
-        bool invalid_children = children < 1 || children > 4;
+        bool invalid_children = children < 0 || children > 4;
         bool invalid_total = total_people < 1 || total_people > 4;
 
         if (invalid_adults || invalid_children || invalid_total)
         {
-            printf("Invalid amount of people. You may only have up to 4 people staying in a room. Try again.\n");
+            printf("Invalid amount of people. You may only have up to 4 people staying in a room and at least one person must be an adult. Try again.\n");
             continue;
         }
 
@@ -280,7 +282,7 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
     bool valid_board = false;
     while (!valid_board)
     {
-        printf("What board type would you like? Enter:\n\t1 - FB, 2 - HB, 3 - B&B :");
+        printf("What board type would you like? Enter:\n\t1 - FB, 2 - HB, 3 - B&B.\n\t[PER PERSON PER DAY] FB - \x9C%d, HB = \x9C%d, B&B - \x9C%d.\nBoard Choice :", 20, 15, 5);
         fgets(board_input, 5, stdin);
 
         // break down using strtol, endpoint is just a throwaway here.
@@ -316,7 +318,7 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
 
         if (duration < 1 || duration > 30)
         {
-            printf("Invalid duration received, try again.");
+            printf("Invalid duration received, try again.\n");
             continue;
         }
 
@@ -347,14 +349,14 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
         valid_newspaper = true;
     }
 
-    /* all of this is a final test, can be removed in final program */
+    /* all of this is a final test, can be removed in final program if wanted. */
     printf("==-== CHECKIN SUMMARY ==-==");
 
     /* customer details */
     printf("\nRoom Choice: %d.", room_index + 1);
     printf("\nBooking ID: %s.", customers[room_index][0]);
     printf("\nName: %s.", customers[room_index][1]);
-    printf("\nAge: %s.", customers[room_index][2]);
+    printf("\nAge: %s.\n", customers[room_index][2]);
 
     /* booking details */
     printf("\nAdults = %d.", booking_info[room_index][1]);
@@ -362,4 +364,10 @@ int checkin(int booking_info[4][6], int *rooms, char *customers[4][3][128], char
     printf("\nBoard Type = %d. [1 - FB, 2 - HB, 3 - B&B]", booking_info[room_index][3]);
     printf("\nDuration = %d days.", booking_info[room_index][4]);
     printf("\nNewspaper = %d. [1 - YES, 0 - NO]", booking_info[room_index][5]);
+
+    printf("\n\nCheckin successful. Press any key to return to the main menu. :");
+    char throwaway;
+    scanf("%c", &throwaway);
+
+    return 0;
 }

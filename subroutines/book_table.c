@@ -6,7 +6,7 @@ int book_table(int booking_info[4][6], char *table7[3][2], char *table9[3][2], c
     int guestCheck = 0, tableCheck = 0, timeChoice = 0, tableChoice = 0, room = 0, x = 0; //declares all integer variables
 
     printf("==-== START OF TABLE BOOK ==-==\n");
-    printf(".. help serve tonight, we'll start by asking for booking_id.");
+    printf("To help serve you tonight, we'll start by asking for your booking id.");
 
     /* use the external function to get the room index, booking id input is included in that. */
     room = get_room_index(r1_id, r2_id, r3_id, r4_id);
@@ -30,18 +30,38 @@ int book_table(int booking_info[4][6], char *table7[3][2], char *table9[3][2], c
             scanf("%d", &timeChoice);
             switch (timeChoice) { //sees which time user would like to book for
                 case (7):
-                    printf("%s, %s, %s\n", table7[0][0], table7[1][0], table7[2][0]);
-                    printf("Which table would you like? (0 for E, 1 for N, 2 for T");
+                    printf("These tables are free:\n");
+                    for(x=0;x<3;x++){ //for loop to print any free tables
+                        if((strcmp(table7[x][1], "F")) == 0){
+                            printf("%s, ", table7[x][0]);
+                        }
+                    }
+                    printf("\nWhich table would you like? (0 for E, 1 for N, 2 for T):\n");
                     scanf("%d", &tableChoice);
-                    printf("Table %s booked", table7[tableChoice][0]);
-                    table7[tableChoice][1] = "N";
+                    if((strcmp(table7[tableChoice][1], "N")) == 0){ //checks to see if input table is free
+                        printf("You cannot book that table");
+                    } else{
+                        printf("Table %s booked\n", table7[tableChoice][0]);
+                        table7[tableChoice][1] = "N";
+                        printf("Thank you for booking with us");
+                    }
                     break;
                 case (9):
-                    printf("%s, %s, %s\n", table9[0][0], table9[1][0], table9[2][0]);
-                    printf("Which table would you like? (0 for E, 1 for N, 2 for T");
+                    printf("These tables are free:\n");
+                    for(x=0;x<3;x++){
+                        if((strcmp(table9[x][1], "F")) == 0){
+                            printf("%s, ", table9[x][0]);
+                        }
+                    }
+                    printf("Which table would you like? (0 for E, 1 for N, 2 for T):\n");
                     scanf("%d", &tableChoice);
-                    printf("Table booked");
-                    table9[tableChoice][1] = "N";
+                    if((strcmp(table9[tableChoice][1], "N")) == 0){ //checks to see if input table is free
+                        printf("You cannot book that table");
+                    } else{
+                        printf("Table %s booked\n", table7[tableChoice][0]);
+                        table9[tableChoice][1] = "N";
+                        printf("Thank you for booking with us");
+                    }
                     break;
                 default:
                     printf("Invalid time");
